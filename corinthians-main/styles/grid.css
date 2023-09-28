@@ -1,0 +1,36 @@
+.Imagem{
+    width: 80px!important;
+    height: 60px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+    
+}
+
+
+.titulo{
+    font-size: 10px;
+    color:#4e6b66;
+    margin-bottom: 7px;
+    text-align: center;
+}
+@media screen and (min-width:1024px) {
+ .Imagem{
+    border: 5px solid white;
+    width: 300px!important;
+    height: 200px!important;
+  
+ }
+ .titulo{
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    color: black;
+ }
+ .gridimg{
+    background-color:wheat;
+ }
+}
